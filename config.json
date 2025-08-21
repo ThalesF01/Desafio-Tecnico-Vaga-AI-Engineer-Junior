@@ -1,0 +1,22 @@
+{
+  "llm": {
+    "model": "compound-beta-mini",
+    "temperature": 0.0,
+    "max_tokens": 512
+  },
+  "weather": {
+    "geocoding_url": "https://nominatim.openstreetmap.org/search",
+    "forecast_url": "https://api.open-meteo.com/v1/forecast",
+    "timeout_seconds": 10
+  },
+  "currency": {
+    "api_url": "https://api.exchangerate.host/convert",
+    "timeout_seconds": 10
+  },
+  "ui": {
+    "math_message": "🧮 Performing calculation...",
+    "llm_message": "💡 Querying knowledge via LLM...",
+    "weather_message": "☁️ Fetching weather via API...",
+    "currency_message": "💱 Converting currency..."
+  }
+}
